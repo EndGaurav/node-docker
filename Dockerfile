@@ -9,5 +9,5 @@ RUN if [ "$NODE_ENV" = "development" ]; \
 COPY . .
 ENV PORT 3000
 EXPOSE ${PORT}
-CMD [ "/usr/local/bin/node", "/app/app.js" ]
+CMD [ "npm", "start" ]
 
