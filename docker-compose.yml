@@ -13,7 +13,7 @@ services:
     depends_on:
       - mongo
   mongo:
-    image: mongo:6.0.1
+    image: mongo:4.2.23
     environment:
       - MONGO_INITDB_ROOT_USERNAME=gaurav
       - MONGO_INITDB_ROOT_PASSWORD=root
